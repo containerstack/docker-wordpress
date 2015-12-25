@@ -31,6 +31,7 @@ RUN curl -o wordpress.tar.gz -SL https://wordpress.org/wordpress-${WORDPRESS_VER
 	&& chown -R www-data:www-data /usr/src/wordpress
 
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod 755 /entrypoint.sh
 
 # ENTRYPOINT resets CMD now
 ENTRYPOINT ["/entrypoint.sh"]
