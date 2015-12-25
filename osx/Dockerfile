@@ -1,4 +1,4 @@
-FROM remonlam/docker-wordpress:osx
+FROM remonlam/docker-wordpress
 MAINTAINER Remon Lam <remon.lam@virtualclouds.info>
 
 COPY ./osx-write-vol-wp.sh /
