@@ -1,8 +1,9 @@
 #!/bin/bash
 set -e
 
+# Need to check this part because the right are still wrong
+# www-data is set ok, but the gid is off
 # Script to workaround docker-machine/boot2docker OSX host volume issues: https://github.com/docker-library/mysql/issues/99
-
 echo '* Working around permission errors locally by making sure that "www-data" uses the same uid and gid as the host volume'
 TARGET_UID=$(stat -c "%u" /var/www/html)
 echo '-- Setting www-data user to use uid '$TARGET_UID
