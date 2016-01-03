@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Need to check this part because the right are still wrong
 # www-data is set ok, but the gid is off
@@ -15,7 +16,3 @@ echo '* Starting www-data'
 chown -R www-data:root /var/www/html/
 #/entrypoint.sh
 /entrypoint.sh apache2-foreground
-
-
-
-chown -R www-data:www-data /var/www/html
