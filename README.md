@@ -1,4 +1,4 @@
-# Running MySQL in a Docker container.
+# Running Wordpress in a Docker container.
 ![Docker & Wordpress banner](/images/docker-wp-cloudplus-banner.png)
 
 ### Docker automated builds
