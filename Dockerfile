@@ -1,5 +1,4 @@
-#FROM php:5.6-fpm-alpine
-FROM remonlam/php:7.2.0
+FROM containerstack/php:7.2.0
 MAINTAINER Remon Lam [remon@containerstack.io]
 
 ENV WORDPRESS_VERSION 4.8
