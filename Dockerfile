@@ -55,5 +55,5 @@ RUN set -ex; \
 
 COPY entrypoint.sh /usr/local/bin/
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
 CMD ["php-fpm"]
