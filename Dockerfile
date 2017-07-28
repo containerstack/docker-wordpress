@@ -1,4 +1,4 @@
-FROM containerstack/php:7.1.7
+FROM containerstack/php:7.1.7-apache-armv7
 MAINTAINER Remon Lam [remon@containerstack.io]
 
 # install the PHP extensions we need
