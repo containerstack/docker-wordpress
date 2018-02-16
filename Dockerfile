@@ -30,8 +30,8 @@ RUN a2enmod rewrite expires
 
 VOLUME /var/www/html
 
-ENV WORDPRESS_VERSION 4.8.2
-ENV WORDPRESS_SHA1 16ab7eb75034c5fa78f9542fafebd41aba2d5bc9
+ENV WORDPRESS_VERSION 4.8.3
+ENV WORDPRESS_SHA1 cff318622d617236d276de155c876b7e0f9f9c87
 
 RUN set -ex; \
 	curl -o wordpress.tar.gz -fSL "https://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz"; \
