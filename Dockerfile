@@ -1,4 +1,4 @@
-#FROM containerstack/php:7.1.7
+FROM containerstack/php:7.1.7
 
 LABEL maintainer="Remon Lam <remon@containerstack.io>"
 
