@@ -1,5 +1,6 @@
 FROM containerstack/php:7.1.7
-MAINTAINER Remon Lam [remon@containerstack.io]
+
+LABEL maintainer="Remon Lam <remon@containerstack.io>"
 
 # install the PHP extensions we need
 RUN set -ex; \
